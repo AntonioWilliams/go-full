@@ -1,9 +1,9 @@
 package main
 
 func main() {
-	fmt.Println(Soma(10,10))
+	fmt.Println(soma(10,10))
 }
 
-func Soma(int a, int b) int {
+func soma(int a, int b) int {
 	return a + b
 }
